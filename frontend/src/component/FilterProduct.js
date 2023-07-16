@@ -1,5 +1,5 @@
 import React from "react";
-import { CiForkAndKnife } from "react-icons/ci";
+import { CiForkSpoonAndKnife } from "react-icons/ci";
 
 const FilterProduct = ({category,onClick,isActive}) => {
   return (
