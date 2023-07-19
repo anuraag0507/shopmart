@@ -5,9 +5,9 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import {
   createBrowserRouter,
-  createBrowserElements
   createRoutesFromElements,
   Route,
+  Routegetter,
   RouterProvider,
 } from "react-router-dom";
 import Home from "./page/Home";
