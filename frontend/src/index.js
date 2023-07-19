@@ -5,6 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import {
   createBrowserRouter,
+  createBrowserElements
   createRoutesFromElements,
   Route,
   RouterProvider,
