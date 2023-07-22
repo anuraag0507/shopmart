@@ -29,7 +29,6 @@ const router = createBrowserRouter(
       {/* <Route path="menu" element={<Menu />} /> */}
       <Route path="menu/:filterby" element={<Menu />} />
       <Route path="about" element={<About />} />
-      <Route path="register" element={<Register />} />
       <Route path="contact" element={<Contact />} />
       <Route path="login" element={<Login />} />
       <Route path="newproduct" element={<Newproduct />} />
