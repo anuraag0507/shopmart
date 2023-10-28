@@ -10,11 +10,11 @@ app.use(express.json({ limit: "10mb" }));
 
 const PORT = process.env.PORT || 8080;
 
-//mongodb connection
+//mongodb connection 
 mongoose.set("strictQuery", false);
 mongoose
   .connect(process.env.MONGODB_URL)
-  .then(() => console.log("Connect to Databse"))
+  .then(() => console.log("Connect to the Databse"))
   .catch((err) => console.log(err));
 
 //schema
